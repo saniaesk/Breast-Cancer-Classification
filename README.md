@@ -47,8 +47,9 @@ The directory structure of this repository is organized as follows:
 ├── notebooks/            # Jupyter notebooks for data exploration and visualization
 ├── src/                  # Scripts for model training, validation, and evaluation
 ├── results/              # Logs, graphs, and metrics from model evaluation
-└── README.md             # Project README file
-## Citation
+└── README.md            # Project README file
+
+- ## Citation
 
 If you use our code, please cite our paper:
 
@@ -59,6 +60,7 @@ If you use our code, please cite our paper:
   journal={arXiv preprint arXiv:2408.16859},
   year={2024}
 }
+
 
 
 
