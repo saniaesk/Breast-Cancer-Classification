@@ -52,18 +52,7 @@ The directory structure of this repository is organized as follows:
 ---
 
 
-## Citation
 
-
-If you use our code, please cite our paper:
-
-```plaintext
-@article{your_paper,
-  title={Comparative Analysis of Transfer Learning Models for Breast Cancer Classification},
-  author={Your Name and Others},
-  journal={arXiv preprint arXiv:2408.16859},
-  year={2024}
-}
 
 
 
