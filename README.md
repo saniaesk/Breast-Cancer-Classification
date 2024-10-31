@@ -37,6 +37,19 @@ The following transfer learning models were tested and compared in this study:
 The dataset used in this study is the **Breast Histopathology Images** dataset, which is available on [Kaggle](https://www.kaggle.com/paultimothymooney/breast-histopathology-images).  
 Please download and organize the dataset according to the instructions in the "Data Preparation" section to reproduce the results.
 
+## Citation
+
+If you use our code, please cite our paper:
+
+```plaintext
+@article{your_paper,
+  title={Comparative Analysis of Transfer Learning Models for Breast Cancer Classification},
+  author={Your Name and Others},
+  journal={arXiv preprint arXiv:2408.16859},
+  year={2024}
+}
+
+
 ## Repository Structure
 
 The directory structure of this repository is organized as follows:
