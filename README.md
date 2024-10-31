@@ -20,5 +20,65 @@ Comparative-Analysis-Transfer-Learning-Breast-Cancer
 ├── README.md             # Detailed overview of the project
 ├── results/              # Logs, graphs, and validation metrics
 └── LICENSE               # License information for the repository
+## Installation and Setup
+
+### Prerequisites
+Ensure you have the following libraries installed:
+- Python 3.8+
+- PyTorch
+- TensorFlow
+- Hugging Face's Transformers library (for Vision Transformer)
+- OpenCV (for data preprocessing)
+
+### Installation
+To install the necessary dependencies, run:
+```bash
+pip install -r requirements.txt
+## Data Preparation
+
+1. **Dataset**: Download the dataset (277,524 histopathology image patches). Detailed instructions or a download link can be found [here](link to dataset).
+2. **Preprocessing**: Resize, normalize, and extract patches as needed. Ensure images are organized in the `data/` directory, structured as per the `data` folder's requirements.
+## Model Training and Evaluation
+
+Each model can be trained and evaluated using the following command:
+```bash
+python src/train.py --model <model_name> --epochs <num_epochs>
+python src/train.py --model resnet50 --epochs 30
+## Results and Key Findings
+
+| Model       | Validation Accuracy | Inference Time | Params (Millions) |
+|-------------|---------------------|----------------|--------------------|
+| ResNet-50   | 89%                 | Fast           | 25.6              |
+| ViT         | 93%                 | Moderate       | 85.8              |
+| DenseNet-121| 90%                 | Moderate       | 8.1               |
+| ...         | ...                 | ...            | ...               |
+
+- **Vision Transformer (ViT)** achieved the highest validation accuracy, demonstrating the advantages of attention-based architectures over traditional convolutional networks in this classification task.
+## Model Interpretability and Practical Application
+
+Understanding model decisions is crucial in clinical applications. Techniques like **Grad-CAM** or **SHAP** can be applied to interpret the model’s decision-making process, providing insights into which regions of the images contribute most significantly to the diagnosis. Refer to `notebooks/interpretable_visualizations.ipynb` for examples.
+## Contributing
+
+Contributions to this project are welcome. If you'd like to add new models, improve efficiency, or help with documentation, please fork the repository and submit a pull request.
+## Citation
+
+If you use our code, please cite our paper:
+
+```plaintext
+@article{your_paper,
+  title={Comparative Analysis of Transfer Learning Models for Breast Cancer Classification},
+  author={Your Name and Others},
+  journal={arXiv preprint arXiv:2408.16859},
+  year={2024}
+}
+
+
+
+
+
+
+
+
+
 
 
