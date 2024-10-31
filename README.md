@@ -8,4 +8,17 @@ Histopathology image classification plays a critical role in the early detection
 - **Robustness**
 
 Key findings highlight the superior accuracy of attention-based models, particularly the **Vision Transformer (ViT)**, which achieved a validation accuracy of **93%**, outperforming traditional convolutional networks. This repository provides scripts and setup instructions to reproduce our results, demonstrating the practical application of advanced machine learning techniques in clinical settings.
+## Repository Structure
+
+```plaintext
+Comparative-Analysis-Transfer-Learning-Breast-Cancer
+├── data/                 # Placeholder or instructions for dataset preparation
+├── models/               # Model architecture definitions and (optional) pre-trained weights
+├── notebooks/            # Jupyter notebooks for exploratory data analysis (EDA) and visualization
+├── src/                  # Core scripts for training, validation, and evaluation
+├── requirements.txt      # Required dependencies
+├── README.md             # Detailed overview of the project
+├── results/              # Logs, graphs, and validation metrics
+└── LICENSE               # License information for the repository
+
 
