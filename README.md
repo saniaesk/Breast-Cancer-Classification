@@ -48,8 +48,20 @@ The directory structure of this repository is organized as follows:
 ├── src/                  # Scripts for model training, validation, and evaluation
 ├── results/              # Logs, graphs, and metrics from model evaluation
 └── README.md             # Project README file
+## Citation
 
-Eskandari, S., Eslamian, A., & Cheng, Q. (2024). Comparative Analysis of Transfer Learning Models for Breast Cancer Classification. arXiv preprint arXiv:2408.16859.
+If you use our code, please cite our paper:
+
+```plaintext
+@article{your_paper,
+  title={Comparative Analysis of Transfer Learning Models for Breast Cancer Classification},
+  author={Your Name and Others},
+  journal={arXiv preprint arXiv:2408.16859},
+  year={2024}
+}
+
+
+
 
 
 
